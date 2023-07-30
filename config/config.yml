@@ -1,0 +1,4 @@
+httpserver:
+  Port: 8081
+  Timeout: 30
+  ExcludeLogRouterPath: {"/health":true}
